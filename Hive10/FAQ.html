@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hive10</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Krub:wght@400;700 display=swap" rel="stylesheet">
+    <link rel="preload" href="build/css/app.css" as="style">
+    <link rel="stylesheet" href="build/css/app.css">
+</head>
+<body>
+    
+    <!-- TradingView Widget BEGIN -->
+    <div class="tradingview-widget-container">
+        <div class="tradingview-widget-container__widget"></div>
+        <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-ticker-tape.js" async>
+            {
+                "symbols":
+                [
+                    {
+                    "proName": "FOREXCOM:SPXUSD",
+                    "title": "S&P 500"
+                    },
+                    {
+                        "proName": "FOREXCOM:NSXUSD",
+                        "title": "Nasdaq 100"
+                    },
+                    {
+                        "proName": "FX_IDC:EURUSD",
+                        "title": "EUR/USD"
+                    },
+                    {
+                        "proName": "BITSTAMP:BTCUSD",
+                        "title": "BTC/USD"
+                    },
+                    {
+                        "description": "GOLD",
+                        "proName": "FX_IDC:XAUUSD"
+                    }
+                    ],
+                        "showSymbolLogo": true,
+                    "colorTheme": "dark",
+                    "isTransparent": false,
+                    "displayMode": "adaptive",
+                    "locale": "en"
+            }
+        </script>
+    </div>
+    <!-- TradingView Widget END -->
+    
+    <div class="nav-bg">
+        <a href="#nav" class="mobile-menu">
+            <i class="fas fa-bars"></i>
+        </a>
+        <nav id="nav" class="navegacion-principal contenedor">
+            <a href="index.html">Inicio</a>
+            <!-- <a href="nosotros.html">Nosotros</a> -->
+            <a href="servicios.html">Servicios</a>
+            <a href="fondo.html">Información del fondo</a>
+            <a href="contacto.html">Contacto</a>
+            <a href="FAQ.html">FAQ</a>
+            <a href="#" class="cerrar">
+                <i class="fas fa-times"></i>
+            </a>
+        </nav>
+    </div>
+
+    <section class="hero parallax">
+        <div class="contenido-hero">
+            <header>
+                <h1 class="titulo">Hiveteen <span>Web</span></h1>
+            </header>
+            <h2>Gestión activa de inversiones</h2>
+            <p>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-map-pin" width="88" height="88" viewBox="0 0 24 24" stroke-width="1.5" stroke="#FFC107" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                <circle cx="12" cy="11" r="3" />
+                <path d="M17.657 16.657l-4.243 4.243a2 2 0 0 1 -2.827 0l-4.244 -4.243a8 8 0 1 1 11.314 0z" />
+                </svg>
+            Florida, USA</p>
+            <a class="boton" href="https://www.c.coffetrading.com/login">Iniciar sesión</a>
+        </div> <!-- contenido-hero -->
+    </section>
+
+    <main class="contenedor sombra">
+        <h2>Preguntas Frecuentes</h2>
+        <div class="preguntas">
+            <div class="contenedor-pregunta">
+                <p class="pregunta">¿Qué es un Fondo de Inversión?</p>
+                <p class="respuesta">Un Fondo de Inversión es una alternativa de inversión que reúne a un gran número de personas que quieren invertir su dinero.</p>
+            </div>
+            <div class="contenedor-pregunta">
+                <p class="pregunta">¿Quién administra los Fondos de Inversión?</p>
+                <p class="respuesta">Los Fondos de Inversión son administrados por HIVETEN CAPITAL LLC, una corporación formada para este propósito bajo las leyes del Estado de Florida USA, siendo su objetivo recaudar los recursos de toda persona que tiene disponibilidad  para invertirla en diversas alternativas de inversión, logrando de esta manera una mejor rentabilidad con un riesgo menor a través de la diversificación.</p>
+            </div>
+            <div class="contenedor-pregunta">
+                <p class="pregunta">¿Qué son las Cuotas y los Valores Cuota?</p>
+                <p class="respuesta">El patrimonio total de un Fondo de Inversión se divide en partes iguales llamadas Cuotas de Participación. Estas poseen un valor llamado Valor Cuota, que cambia diariamente y que refleja la rentabilidad que ha obtenido el Fondo.</p>
+            </div>
+            <div class="contenedor-pregunta">
+                <p class="pregunta">¿En qué invierten los Fondos de Inversión?</p>
+                <p class="respuesta">Las inversiones de los Fondos de Inversión van acorde a la Política de Inversiones de cada uno de los Fondos. Actualmente HIVETEN CAPITAL LLC invierte en dos fondos: Fondo de Acciones (cuyo objetivo es la inversión en Acciones cotizadas en la principal bolsa de los Estados Unidos), Fondo de Cryptomonedas (cuyo objetivo es la inversión en las cryptomonedas con mayor capitalización del mercado). </p>
+            </div>
+            <div class="contenedor-pregunta">
+                <p class="pregunta">¿Cuáles son las ventajas de invertir en un Fondo de Inversión?</p>
+                <p class="respuesta">
+                    <ul>
+                        <li>Obtención de rentabilidad diaria</li>
+                        <li>Riesgo Controlado</li>
+                        <li>Diversificación de inversiones</li>
+                    </ul>
+                </p>
+            </div>
+            <div class="contenedor-pregunta">
+                <p class="pregunta">¿Qué tipo de Fondo de Inversión debo elegir?</p>
+                <p class="respuesta">Cada persona tiene diferentes objetivos y necesidades al momento de invertir, lo que constituye su perfil de inversor. Por esta razón, el Fondo de Inversión a elegir debe estar en estrecha relación al monto de inversión, horizonte de inversión, edad, ingresos que recibe, objetivo de inversión, nivel de aversión al riesgo y conocimiento del mercado.
+                Cada persona tiene diferentes objetivos y necesidades al momento de invertir, lo que constituye su perfil de inversor. Por esta razón, el Fondo de Inversión a elegir debe estar en estrecha relación al monto de inversión, horizonte de inversión, edad, ingresos que recibe, objetivo de inversión, nivel de aversión al riesgo y conocimiento del mercado.</p>
+            </div>
+            <div class="contenedor-pregunta">
+                <p class="pregunta">¿Cuáles son los riesgos de invertir en un fondo de inversión?</p>
+                <p class="respuesta">Los Fondos de Inversión tienen riesgos inherentes, definidos como la fluctuación o variabilidad de su rendimiento. El riesgo de un fondo dependerá del riesgo de los instrumentos que conforman la cartera de inversiones. 
+                Existen diferentes tipos de riesgos: Riesgo país: Coyuntura económica y política del país, así como cualquier cambio de las “reglas de juego” en el ámbito económico, político y social. Riesgo de tasa de rendimiento: Consecuencias de un incremento o descenso del nivel de las tasas de rendimiento, afectando a los precios de los valores para el Fondo de Inversión. Riesgo de liquidez: Ya sea por la estructura de la cartera de inversiones del Fondo de Inversión o por las condiciones del mercado, con relación a determinados valores. Riesgo cambiario: Por efectos de una depreciación de la moneda en la cual se efectúan las transacciones y se encuentran denominados los valores del Fondo de Inversión. Riesgo sectorial: Dependiente del comportamiento del sector económico y de producción a la que pertenece el emisor, cuyos valores forman parte de la cartera del Fondo de Inversión.Riesgo emisor: Por problemas financieros o de otra índole del mismo que impidan el normal cumplimiento de sus obligaciones. Riesgo tributario: Proveniente de las modificaciones que pudieran surgir el régimen tributario aplicable a los Fondos de Inversión</p>
+            </div>
+        </div>
+    </main>
+
+
+    <footer class="footer">
+        <p>55 Merrick Way Ste 401<br>Coral Globes, FL 33134 <br> United States of America <br><br>Todos los derechos reservados. AdhesD</p>
+    </footer>
+
+</body>
+</html>
