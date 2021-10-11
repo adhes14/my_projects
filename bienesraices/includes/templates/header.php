@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="css/app.css">
 </head>
 <body>
-    <header class="header">
+    <header class="header <?php echo $inicio ? 'inicio' : ''; ?>">
         <div class="contenedor contenido-header">
             <div class="barra">
                 <a href="/">
@@ -22,34 +22,13 @@
                 <div class="derecha">
                     <img src="img/dark-mode.svg" alt="boton dark" class="dark-mode-boton">
                     <nav class="navegacion">
-                        <a href="nosotros.html">Nosotros</a>
-                        <a href="anuncios.html">Anuncios</a>
-                        <a href="blog.html">Blog</a>
-                        <a href="contacto.html">Contacto</a>
+                        <a href="nosotros.php">Nosotros</a>
+                        <a href="anuncios.php">Anuncios</a>
+                        <a href="blog.php">Blog</a>
+                        <a href="contacto.php">Contacto</a>
                     </nav>
                 </div>
             </div> <!-- Fin de Barra -->
         </div>
 
     </header>
-
-    <main class="contenedor seccion">
-        <h1>Titulo Pagina</h1>
-    </main>
-
-    <footer class="footer seccion">
-        <div class="contenedor contenedor-footer">
-            <nav class="navegacion">
-                <a href="nosotros.html">Nosotros</a>
-                <a href="anuncios.html">Anuncios</a>
-                <a href="blog.html">Blog</a>
-                <a href="contacto.html">Contacto</a>
-            </nav>
-        </div>
-
-        <p class="copyright">Todos los derechos reservados 2021 &copy;</p>
-    </footer>
-
-    <script src="js/bundle.min.js"></script>
-</body>
-</html>
