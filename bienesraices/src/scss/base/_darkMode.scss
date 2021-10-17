@@ -34,4 +34,14 @@
             border: none;
         }
     }
+
+    table {
+        th {
+            color: $gris;
+        }
+
+        td {
+            color: $blanco;
+        }
+    }
 }
