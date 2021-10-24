@@ -1,0 +1,19 @@
+{
+    "name": "adhemar/bienesraices",
+    "description": "Creando un proyecto con POO",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "App\\": "./classes"
+        }
+    },
+    "authors": [
+        {
+            "name": "Adhes",
+            "email": "adhemarduran@gmail.com"
+        }
+    ],
+    "require": {
+        "intervention/image": "^2.7"
+    }
+}

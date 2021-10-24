@@ -1,6 +1,6 @@
 <?php
 
-    require '../includes/funciones.php';
+    require '../includes/app.php';
     
     incluirTemplate('header', true);
 ?>
@@ -31,7 +31,6 @@
         <h2>Casas y departamentos en venta</h2>
 
         <?php
-            $limite = 3;
             include '../includes/templates/anuncios.php';
         ?>
 

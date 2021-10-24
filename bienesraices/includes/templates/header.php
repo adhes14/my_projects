@@ -30,12 +30,12 @@
                 <div class="derecha">
                     <img src="/build/img/dark-mode.svg" alt="boton dark" class="dark-mode-boton">
                     <nav class="navegacion">
-                        <a href="nosotros.php">Nosotros</a>
-                        <a href="anuncios.php">Anuncios</a>
-                        <a href="blog.php">Blog</a>
-                        <a href="contacto.php">Contacto</a>
+                        <a href="/build/nosotros.php">Nosotros</a>
+                        <a href="/build/anuncios.php">Anuncios</a>
+                        <a href="/build/blog.php">Blog</a>
+                        <a href="/build/contacto.php">Contacto</a>
                         <?php if($auth) : ?>
-                            <a href="cerrar-sesion.php">Cerrar sesión</a>
+                            <a href="/build/cerrar-sesion.php">Cerrar sesión</a>
                         <?php endif; ?>
                     </nav>
                 </div>
