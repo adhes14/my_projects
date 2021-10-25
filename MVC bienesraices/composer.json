@@ -1,0 +1,21 @@
+{
+    "name": "adhemar/bienesraices",
+    "description": "Creando un proyecto con POO",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Model\\": "./models",
+            "MVC\\": "./",
+            "Controllers\\": "./controllers"
+        }
+    },
+    "authors": [
+        {
+            "name": "Adhes",
+            "email": "adhemarduran@gmail.com"
+        }
+    ],
+    "require": {
+        "intervention/image": "^2.7"
+    }
+}
