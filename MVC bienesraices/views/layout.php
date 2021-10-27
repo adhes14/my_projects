@@ -34,12 +34,12 @@
                 <div class="derecha">
                     <img src="/build/img/dark-mode.svg" alt="boton dark" class="dark-mode-boton">
                     <nav class="navegacion">
-                        <a href="/build/nosotros.php">Nosotros</a>
-                        <a href="/build/anuncios.php">Anuncios</a>
-                        <a href="/build/blog.php">Blog</a>
-                        <a href="/build/contacto.php">Contacto</a>
+                        <a href="/nosotros">Nosotros</a>
+                        <a href="/anuncios">Anuncios</a>
+                        <a href="/blog">Blog</a>
+                        <a href="/contacto">Contacto</a>
                         <?php if($auth) : ?>
-                            <a href="/build/cerrar-sesion.php">Cerrar sesión</a>
+                            <a href="/logout">Cerrar sesión</a>
                         <?php endif; ?>
                     </nav>
                 </div>
@@ -54,16 +54,16 @@
     <footer class="footer seccion">
         <div class="contenedor contenedor-footer">
             <nav class="navegacion">
-                <a href="nosotros.php">Nosotros</a>
-                <a href="anuncios.php">Anuncios</a>
-                <a href="blog.php">Blog</a>
-                <a href="contacto.php">Contacto</a>
+                <a href="/nosotros">Nosotros</a>
+                <a href="/anuncios">Anuncios</a>
+                <a href="/blog">Blog</a>
+                <a href="/contacto">Contacto</a>
             </nav>
         </div>
 
         <p class="copyright">Todos los derechos reservados <?php echo date('Y'); ?> &copy;</p>
     </footer>
 
-    <script src="/build/js/bundle.min.js"></script>
+    <script src="/build/js/bundle.js"></script>
 </body>
 </html>

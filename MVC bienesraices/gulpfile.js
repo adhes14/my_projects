@@ -36,7 +36,7 @@ function javascript() {
       .pipe(concat('bundle.js')) // final output file name
       .pipe(terser())
       .pipe(sourcemaps.write('.'))
-      .pipe(rename({ suffix: '.min' }))
+    //   .pipe(rename({ suffix: '.min' }))
       .pipe(dest('./public/build/js'))
 }
 
@@ -62,5 +62,5 @@ function watchArchivos() {
     watch( paths.imagenes, versionWebp );
 }
   
-exports.default = parallel(css, javascript,  imagenes, versionWebp, watchArchivos );
-// exports.default = parallel(css, javascript, watchArchivos );
+// exports.default = parallel(css, javascript,  imagenes, versionWebp, watchArchivos );
+exports.default = parallel(css, javascript, watchArchivos );
