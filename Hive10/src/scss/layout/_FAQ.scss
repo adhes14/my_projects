@@ -1,0 +1,16 @@
+.preguntas {
+    margin: 0 2rem;
+}
+.contenedor-pregunta {
+    background-color: $grisclaro;
+    padding: 2rem;
+    margin-top: 2rem;
+    border-radius: 1rem;
+    .pregunta {
+        font-size: 2rem;
+        font-weight: 700;
+    }
+    .respuesta, li {
+        line-height: 2;
+    }
+}

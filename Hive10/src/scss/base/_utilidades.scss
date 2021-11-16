@@ -1,0 +1,19 @@
+/* Utilidades */
+.w-sm-100 {
+    width: 100%;
+
+    @include tablet {
+        width: auto;
+    }
+}
+
+.flex {
+    display: flex;
+}
+.alinear-derecha {
+    justify-content: flex-end;
+}
+
+.centrar-texto {
+    text-align: center;
+}

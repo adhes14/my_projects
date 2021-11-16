@@ -1,0 +1,30 @@
+.contenedor-datos-fondo {
+    display: block;
+    width: 40rem;
+    max-width: 100%;
+    // height: auto;
+    margin: 0 auto;
+    border: 1px solid $gris;
+    border-radius: 2rem;
+    h3 {
+        text-align: left;
+        border-bottom: 1px solid $gris;
+        margin: 0;
+        padding: 1rem 0;
+        background-color: $grisclaro;
+        border-top-left-radius: 2rem;
+        border-top-right-radius: 2rem;
+    }
+}
+
+
+
+.datos-fondo {
+    border: none;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 2rem;
+    .label-datos {
+        font-weight: 700;
+    }
+}

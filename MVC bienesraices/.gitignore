@@ -1,0 +1,5 @@
+node_modules/*
+public/build/css/app.css.map
+public/build/js/bundle.js.map
+vendor/*
+cypress/*

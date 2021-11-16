@@ -1,5 +1,5 @@
 <main class="contenedor seccion">
-    <h1>Más sobre nosotros</h1>
+    <h1 data-cy="heading-nosotros">Más sobre nosotros</h1>
 
     <div class="iconos-nosotros">
         <div class="icono">
