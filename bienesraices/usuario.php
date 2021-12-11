@@ -12,6 +12,8 @@ $passwordHash = password_hash($password, PASSWORD_BCRYPT);
 
 //Query para crear el usuario
 $query = "INSERT INTO usuarios (nombre, email, password, admin, confirmado) VALUES ('admin', '${email}', '${passwordHash}', 1, 1);";
+
+//Query para crear la tabla de usuario
 // $query = "
 //     CREATE TABLE IF NOT EXISTS `usuarios` (
 //     `id` INT(11) NOT NULL AUTO_INCREMENT,
@@ -30,10 +32,13 @@ $query = "INSERT INTO usuarios (nombre, email, password, admin, confirmado) VALU
 //     `password` CHAR(60) NULL,
 //     `admin` TINYINT(1) NULL,
 //     `confirmado` TINYINT(1) NULL,
+//     `actualizado` TINYINT(1) NULL,
 //     `token` VARCHAR(15) NULL, 
 //     PRIMARY KEY (`id`))
 //     ENGINE = InnoDB
 //     DEFAULT CHARACTER SET = utf8;";
+
+//Query que elimina la tabla de usuarios
 // $query = "
 //     DROP TABLE usuarios;
 // ";
