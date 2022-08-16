@@ -1,6 +1,6 @@
 <?php
 
-$db = mysqli_connect('localhost', 'adheduran', 'adheduran123', 'appsalon_mvc');
+$db = mysqli_connect('localhost', 'adhes', 'adhes123', 'appsalon_mvc');
 
 if (!$db) {
     echo "Error: No se pudo conectar a MySQL.";
