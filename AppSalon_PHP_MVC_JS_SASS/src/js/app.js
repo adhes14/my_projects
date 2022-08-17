@@ -110,7 +110,7 @@ function paginaSiguiente() {
 
 async function consultarAPI() {
     try {
-        const url = 'http://localhost:8000/api/servicios';
+        const url = 'http://localhost:3000/api/servicios';
         const resultado = await fetch(url);
         const servicios = await resultado.json();
         mostrarServicios(servicios);
@@ -130,7 +130,7 @@ function mostrarServicios(servicios) {
 
         const precioServicio = document.createElement('P');
         precioServicio.classList.add('precio-servicio');
-        precioServicio.textContent = `$ ${precio}`;
+        precioServicio.textContent = `$${precio}`;
 
         const servicioDiv = document.createElement('DIV');
         servicioDiv.classList.add('servicio');
@@ -302,7 +302,7 @@ async function reservarCita() {
     // console.log([...datos]); //es una forma de ver los datos que se estan enviado
     try {
         //peticion hacia la API
-        const url = 'http://localhost:8000/api/citas';
+        const url = 'http://localhost:3000/api/citas';
     
         const respuesta = await fetch(url, {
             method: 'POST',

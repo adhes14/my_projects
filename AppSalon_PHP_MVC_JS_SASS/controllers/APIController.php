@@ -12,7 +12,7 @@ class APIController {
         //de esta forma se devuelve mas completo
         // $respuesta = [
         //     'respuesta' => $servicios
-        // ]; 
+        // ];
         echo json_encode($servicios);
     }
 

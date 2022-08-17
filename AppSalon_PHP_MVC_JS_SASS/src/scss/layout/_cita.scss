@@ -1,4 +1,12 @@
+@use 'base/mixins' as m;
 
+.app {
+    .app {
+        @include m.tablet {
+            overflow: unset;
+        }
+    }
+}
 .seccion {
     padding: 5rem 0;
     display: none;
