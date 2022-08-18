@@ -13,6 +13,11 @@
     </form>
 </div>
 
+<?php
+    if(count($citas) === 0) {
+        echo "<h2>No hay citas en esta fecha</h2>";
+    }
+?>
 <div class="citas-admin">
     <ul class="citas">
         <?php
