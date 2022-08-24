@@ -2,3 +2,4 @@ node_modules/*
 public/build/css/app.css.map
 public/build/js/app.js.map
 vendor/*
+.env
