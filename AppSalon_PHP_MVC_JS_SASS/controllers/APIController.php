@@ -12,7 +12,7 @@ class APIController {
         //de esta forma se devuelve mas completo
         // $respuesta = [
         //     'respuesta' => $servicios
-        // ]; 
+        // ];
         echo json_encode($servicios);
     }
 
@@ -36,5 +36,13 @@ class APIController {
         }
 
         echo json_encode($resultado);
+    }
+
+    public static function eliminar() {
+        if($_SERVER['REQUEST_METHOD'] === 'POST') {
+            $cita = Cita::find($_POST['id']);
+            $cita->eliminar();
+            header('Location:' . $_SERVER['HTTP_REFERER']);
+        }
     }
 }
